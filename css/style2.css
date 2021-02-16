@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+section{
+    overflow: hidden;
+}
+
+
+
+
+
+
+.logo{
+    height: 5rem;
+    width: 10rem;
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: orange;
+}
+.brand{
+    font-weight: 600;
+    font-family: Comic Sans MS;
+    text-shadow: 1rem 1rem 1.5rem gray;
+    text-align: center;
+}
+.call{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: right;
+}
+.header{
+    color: white;
+    background-color:peru;
+}
+.custom-nav{
+    background-color:peru;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.nav-link{
+    color: white;
+}
+.break{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    color:black;
+    font-weight: 900;
+    border: .2rem solid;
+}
+.box{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.hero{
+    text-align: center;
+    height:80rem;
+    padding:15rem;
+    font-size: 3.6rem;
+    color: white;
+    background-image: url("../images/back2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+.button{
+    border-radius: 5rem;
+    padding: 1rem;
+    padding-right:3rem;
+    padding-left:3rem;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-family: Comic Sans MS;
+}
+.banner-name{
+    font-size: 10rem;
+    font-weight: 500;
+
+}
+#about{
+    overflow: hidden;
+}
+.heading{
+    font-size: 4.5rem;
+    text-shadow: .4rem .4rem 1.4rem;
+    font-weight: 600;
+    padding:5rem 3rem 5rem;
+    border-bottom: .5rem solid gray;
+    text-transform: uppercase;
+}
+.imagedesign{
+    height: 30rem;
+    width: 40rem;
+    padding: 0.5rem;
+    border-bottom: 1rem groove gold;
+    border-radius: 3rem;
+}
+.datadesign{
+    font-size: 2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.heading2{
+    font-size: 3rem;
+    text-shadow: .4rem .4rem 1.4rem black;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: .5rem groove gold;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-transform: uppercase;
+}
+
+.heading3{
+    padding: 1.5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    border-bottom: .5rem groove gold;
+    text-transform: uppercase;
+    text-align: center;
+    color: peru;
+    text-shadow: .4rem .4rem 1.2rem gray;
+}
+
+.heading3::before{
+    content: '--------------------------------------------------------------------';
+    color:gold ;
+    font-weight: 900;
+    display: block;
+}
+.heading3::after{
+    content: '--------------------------------------------------------------------';
+    display: block;
+}
+.image{
+    height: 30rem;
+    width: 30rem;
+    padding: 0.2rem;
+    margin:0.5rem;
+    border-radius: 1rem;
+    border: .4rem groove gold;
+    background-position: cover;
+}
+.gallery{
+    text-align: center;
+    align-items: center;
+    background-position: center;
+    background-color: lightgray;
+    
+
+}
+#contact{
+    text-align: left;
+    }
+.contact-box{
+    background-color: lightgray;
+    background-position: center;
+    padding: 2.5rem;
+}
+.contact-box form{
+    border:.3rem solid black;
+    padding: 1.5rem;
+    border-radius: 2rem;    
+}
+.mylabel{
+    font-size: 2.4rem;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+}
+.myinput{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+.mybtn{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color: orange;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+.mybtn:hover{
+    border:.1rem solid orange;
+    background-color: white;
+    color: orange;
+}
+.map{
+    border: .3rem solid black;
+}
+
+.chead{
+    color: peru;
+    text-transform: uppercase;
+
+}
+.box2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: .5rem solid gold;
+    border-left: .5rem solid gold;
+}
+.box2 ul{
+    list-style-type:none;
+}
+.menu-box{
+    background-image: url('../images/background3.jpg');
+    background-position:bottom;
+    color: white;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+@media sreen and (max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    
+}
+
+@media (min-width:998px){
+    html{
+        font-size: 55%;
+    }
+    
+    .banner-name
+    {
+        font-size: 12rem;
+        margin-left: 8rem;
+        margin-top: 8rem;
+    }
+    
+}
+
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    .hero{
+        align-items: baseline;
+        text-align: center;
+        height:90vh;
+        padding-right:.1rem;
+        padding-left:.1rem;
+        font-size: 1rem;
+        color: white;
+        background-image: url("../images/back2.jpg");
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 10%;
+    }
+    
+    .banner-name{
+        margin-top: 12rem;
+        font-size: 6rem;
+        font-weight: 400;
+    
+    }    
+    .heading3::before{
+        content: '-------------------------';
+        color:gold ;
+        font-weight: 900;
+        display: block;
+    }
+    .heading3::after{
+        content: '-------------------------';
+        display: block;
+    }
+    
+    
+}
+
+@media screen and (min-width:428px) and (max-width:768px){
+  body{
+      box-sizing: border-box;
+  }
+  .banner-name{
+      font-size: 8rem;
+  }
+  .imagedesign{
+      height: auto;
+      width: 35rem;
+  }
+  .heading3::before{
+    content: '------------------------------------------------------';
+    color:gold ;
+    font-weight: 900;
+    display: block;
+}
+.heading3::after{
+    content: '------------------------------------------------------';
+    display: block;
+}
+}
