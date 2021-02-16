@@ -11,7 +11,7 @@
 </head>
 <body>
     <section id="home">
-        <div class="header box  fixed-top">
+        <div class="header box">
         <div class="row">
             <div class="col-md-2">
                 <div class="logo">logo</div>
@@ -29,7 +29,7 @@
         </div>
 
         <!---------------------Navigation Bar-------------------->
-        <nav class=" custom-nav  navbar navbar-expand-lg navbar-light">
+        <nav class=" custom-nav  navbar navbar-expand-lg navbar-light  fixed-top">
             <div class="container-fluid ">
               <a class="navbar-brand logo" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -248,4 +248,12 @@
 <!----------------------JavaScrips-------------------------->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox-plus-jquery.min.js"></script>
+
+
+<script>
+    $(window).scroll(function(){
+        $('nav').toggleClass('fixed-top',$(this).scrollTop()>90);
+    });
+</script>
+
 </html>
